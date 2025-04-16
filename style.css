@@ -1,0 +1,103 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik Moonrocks', cursive;
+  background-image: linear-gradient(to right,#d2759e ,#fe97bf);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(14px);
+  padding: 30px 20px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 50px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffcc00;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.input-box button {
+  padding: 12px;
+  font-size: 1.1rem;
+  background-color: #ff0066;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.input-box button:hover {
+  background-color: #cc0052;
+}
+
+.resultdiv p {
+  font-size: 1.6rem;
+  margin-top: 10px;
+  line-height: 1.5;
+  color: #00ffcc;
+  text-shadow: 1px 1px 2px #000;
+  animation: bounce 0.4s ease;
+}
+
+@keyframes bounce {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .resultdiv p {
+    font-size: 1.4rem;
+  }
+
+  .input-box input,
+  .input-box button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
