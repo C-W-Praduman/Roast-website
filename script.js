@@ -17,7 +17,7 @@ const classmateMemes = {
     "nitin": "nitin practical me hamesha system error blame karta hai.",
     "shivraj": "shivraj ke answers exam me toh nahi milte, par WhatsApp pe mil jaate hain.",
     "aditi": "aditi har baar test ke baad bolti hai ‘mujhe kuch nahi aata tha’ — aur top karti hai.",
-    "dheeraj": "Saurav class ka DJ hai, bina aux ke bhi bajata hai.",
+    "dheeraj": "dheeraj class ka DJ hai, bina aux ke bhi bajata hai.",
     "munna": "munna ki attendance itni low hai, uska roll number bhi bhool gaye sab.",
     "vishwajit": "vishwajit aur assignments ka rishta sirf deadline ke din shuru hota hai.",
     "praduman": "praduman har subject me pass ho jaata hai — default setting lagta hai.",
